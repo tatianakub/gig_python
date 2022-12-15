@@ -32,7 +32,7 @@
 # else:
 #     print('Привет, ', username)
 
-#переворачивание числа
+# переворачивание числа
 # original = 23
 # inverted = 0
 # while original != 0:
@@ -40,7 +40,7 @@
 #     original //= 10
 #     print(inverted)
 
-#for
+# for
 
 # r = range(10) #или диапазон (1, 5)
 # for i in r:
@@ -49,15 +49,14 @@
 # help(int)  #если не знаешь что что делает, можно посмотреть
 
 
-#функция
+# функция
 def fname(x):
-    if x ==1:
+    arg = 1
+    print(fname(arg))
+    print(type(fname(arg)))
+    if x == 1:
         return 'Целое'
     elif x == 2.3:
         return 23
     else:
         return
-
-arg = 1
-print(fname(arg))
-print(type(fname(arg)))
